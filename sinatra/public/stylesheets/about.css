@@ -1,0 +1,29 @@
+body {
+  background-color:#25744d;
+  color:white;
+  font-size:2em;
+}
+
+a:hover{
+  font-weight:bold;
+}
+
+a{
+  text-decoration:none;
+  color: #cc0066;
+  font-style:sans-serif ;
+}
+
+p {
+  color:black;
+}
+
+h2 {
+  font-weight:Bold;
+  
+}
+
+.work{
+  text-align:center;
+  list-style-type:none;
+}

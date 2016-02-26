@@ -1,0 +1,11 @@
+<h1>Devpoint Students</h1>
+<br />
+
+<ul>
+  <% @students.each do |student| %>
+   <li>
+     <a href ="/students/<%=student%>"><%= student%></a>
+   </li>
+  <%end%>
+</ul>
+<a href='/devpoint'>Back to Devpoint</a>

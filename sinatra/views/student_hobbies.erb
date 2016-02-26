@@ -1,0 +1,9 @@
+<h1>Hobbies for Student: <%= @student_name%></h1>
+<hr />
+
+<h2>Hobbies</h2>
+<ul>
+  <% @student_hobbies[:hobbies].each do |hobby| %>
+    <li><%= hobby%></li>
+    <% end %>
+</ul>
