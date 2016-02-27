@@ -1,0 +1,11 @@
+<h1>SEARCH RESULTS</h1>
+<a href = '/search'>Back to search</a>
+<a href = '/'>Back to menu</a>
+<hr />
+
+
+<%if @results == '' %>
+  <h1>your search proved fruitless</h1>
+<%else%>
+<%= @results%>
+<%end%>
